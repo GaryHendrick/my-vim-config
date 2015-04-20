@@ -10,3 +10,7 @@ This configuration is also dependent upon the following plugins:
 csupport
 python-mode
 taglist
+
+In the future you shouldn't have to go through so many edits to get this going
+References:
+http://andrew.stwrt.ca/posts/vim-ctags
