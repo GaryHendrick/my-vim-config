@@ -3,10 +3,10 @@ by adding the following to that .vimrc file
 
 source .vim/.vimrc
 
-This configuration is dependent upon the package
+This configuration is dependent upon the package:
 ctags
 
-and the plugins
+This configuration is also dependent upon the following plugins:
 csupport
 python-mode
 taglist
