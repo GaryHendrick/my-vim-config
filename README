@@ -1,7 +1,7 @@
 This is my vim configuration.  Note that the .vimrc file is included in a ~/.vimrc configuration
 by adding the following to that .vimrc file
 
-source .vim/.vimrc
+source ~/.vim/.vimrc
 
 This configuration is dependent upon the package:
 ctags
