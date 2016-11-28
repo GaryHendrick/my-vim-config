@@ -3,6 +3,9 @@ by adding the following to that .vimrc file
 
 source ~/.vim/.vimrc
 
+If using this config in windows, create links and junctions to point to the appropriate configuration files
+`mklink` will provide this capability on the windows command prompt.
+
 This configuration is dependent upon the package:
 ctags
 
