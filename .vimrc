@@ -18,4 +18,3 @@ let g:pymode_run_bind = '<A>r'
 let g:C_UseTool_cmake = 'yes'
 let g:C_UseTool_doxygen = 'yes'
 
-color happy_hacking
