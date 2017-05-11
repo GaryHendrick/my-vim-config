@@ -17,4 +17,5 @@ let g:pymode_run = 1
 let g:pymode_run_bind = '<A>r'
 let g:C_UseTool_cmake = 'yes'
 let g:C_UseTool_doxygen = 'yes'
-
+:nnoremap <F5> "=strftime("%c")<CR>P
+:inoremap <F5> <C-R>=strftime("%c")<CR>
