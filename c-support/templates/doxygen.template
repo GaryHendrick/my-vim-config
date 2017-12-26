@@ -61,7 +61,7 @@
  *  
  *  <+DETAILED+>
  *  
- *  |DOX_CMD|author  |AUTHOR| (|AUTHORREF|), |EMAIL|
+ *  |DOX_CMD|author  |AUTHOR|(), |EMAIL|
  *  
  *  |DOX_CMD|internal
  *       Created:  |DATE|
@@ -81,7 +81,7 @@
  *  
  *  <+DETAILED+>
  *  
- *  |DOX_CMD|author  |AUTHOR| (|AUTHORREF|), |EMAIL|
+ *  |DOX_CMD|author  |AUTHOR|(), |EMAIL|
  *  
  *  |DOX_CMD|internal
  *       Created:  |DATE|

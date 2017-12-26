@@ -2,13 +2,13 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
-SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
-SetMacro( 'COPYRIGHT',   '' )
-SetMacro( 'EMAIL',       '' )
-SetMacro( 'LICENSE',     '' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'AUTHOR',      'Gary Hendrick' )
+SetMacro( 'COMPANY',     'SOFWerx' )
+SetMacro( 'COPYRIGHT',   'Gary Hendrick' )
+SetMacro( 'EMAIL',       'gary.hendrick.fellow@sofwerx.org' )
+SetMacro( 'LICENSE',     'MIT' )
+SetMacro( 'ORGANIZATION','SOFWerx' )
+SetMacro( 'COPYRIGHT_HOLDER', 'Gary Hendrick' )
 
 SetStyle( 'C' )
 
