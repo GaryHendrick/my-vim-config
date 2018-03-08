@@ -16,7 +16,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-set textwidth=79
+set textwidth=110
 set number
 set encoding=utf-8
 
@@ -80,6 +80,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'othree/xml.vim'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " Add all your pluins here (note older versions of Vundle used Bundle instead
 " of Plugin)
@@ -87,3 +89,9 @@ Bundle 'Valloric/YouCompleteMe'
  
 " All of your plugins must be added before the following line call
 call vundle#end() " required
+
+" YouCompleteMe Configuration, invoked after vundle loading
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
+:nnoremap <F5> "=strftime("%c")<CR>P
+:inoremap <F5> <C-R>=strftime("%c")<CR>
