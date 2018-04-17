@@ -3,6 +3,11 @@ by adding the following to that .vimrc file
 
 source ~/.vim/.vimrc
 
+Set up Vundle through the Vundle Quick Start Guide and run :PluginInstall
+https://github.com/VundleVim/Vundle.vim
+
+The YouCompleteMe plugin will require a compiled completer. From within vim run `:help YouCompleteMe` for details
+
 If using this config in windows, create links and junctions to point to the appropriate configuration files
 `mklink` will provide this capability on the windows command prompt.
 
